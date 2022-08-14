@@ -72,21 +72,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 const menuBtn = $(".btn"),
-  menu = $(".popup");
-
-menuBtn.on("click", function () {
-  if ($(this).hasClass("active")) {
-    $(this).removeClass("active");
-    menu.slideUp();
-  } else {
-    $(this).addClass("active");
-    menu.slideDown();
-  }
-});
+      menu = $(".popup");
 
 $(document).click(function (e) {
   if (!menuBtn.is(e.target) && !menu.is(e.target) && menu.has(e.target).length === 0) {
     menu.slideUp();
+    menu.removeClass('active');
     menuBtn.removeClass("active");
   };
 });
