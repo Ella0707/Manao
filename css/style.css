@@ -1,50 +1,436 @@
 @font-face {
-  font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-Black.ttf");
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-LightItalic.eot");
+  src: local("TT Commons Light Italic"), local("TTCommons-LightItalic"), url("../fonts/TTCommons-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-LightItalic.woff2") format("woff2"), url("../fonts/TTCommons-LightItalic.woff") format("woff"), url("../fonts/TTCommons-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Black.eot");
+  src: local("TT Commons Black"), local("TTCommons-Black"), url("../fonts/TTCommons-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Black.woff2") format("woff2"), url("../fonts/TTCommons-Black.woff") format("woff"), url("../fonts/TTCommons-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Bold.eot");
+  src: local("TT Commons Bold"), local("TTCommons-Bold"), url("../fonts/TTCommons-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Bold.woff2") format("woff2"), url("../fonts/TTCommons-Bold.woff") format("woff"), url("../fonts/TTCommons-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-DemiBoldItalic.eot");
+  src: local("TT Commons DemiBold Italic"), local("TTCommons-DemiBoldItalic"), url("../fonts/TTCommons-DemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-DemiBoldItalic.woff2") format("woff2"), url("../fonts/TTCommons-DemiBoldItalic.woff") format("woff"), url("../fonts/TTCommons-DemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-BoldItalic.eot");
+  src: local("TT Commons Bold Italic"), local("TTCommons-BoldItalic"), url("../fonts/TTCommons-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-BoldItalic.woff2") format("woff2"), url("../fonts/TTCommons-BoldItalic.woff") format("woff"), url("../fonts/TTCommons-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Regular.eot");
+  src: local("TT Commons Regular"), local("TTCommons-Regular"), url("../fonts/TTCommons-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Regular.woff2") format("woff2"), url("../fonts/TTCommons-Regular.woff") format("woff"), url("../fonts/TTCommons-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ExtraBold.eot");
+  src: local("TT Commons ExtraBold"), local("TTCommons-ExtraBold"), url("../fonts/TTCommons-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-ExtraBold.woff2") format("woff2"), url("../fonts/TTCommons-ExtraBold.woff") format("woff"), url("../fonts/TTCommons-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Italic.eot");
+  src: local("TT Commons Italic"), local("TTCommons-Italic"), url("../fonts/TTCommons-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Italic.woff2") format("woff2"), url("../fonts/TTCommons-Italic.woff") format("woff"), url("../fonts/TTCommons-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ExtraLight.eot");
+  src: local("TT Commons ExtraLight"), local("TTCommons-ExtraLight"), url("../fonts/TTCommons-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-ExtraLight.woff2") format("woff2"), url("../fonts/TTCommons-ExtraLight.woff") format("woff"), url("../fonts/TTCommons-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-MediumItalic.eot");
+  src: local("TT Commons Medium Italic"), local("TTCommons-MediumItalic"), url("../fonts/TTCommons-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-MediumItalic.woff2") format("woff2"), url("../fonts/TTCommons-MediumItalic.woff") format("woff"), url("../fonts/TTCommons-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Thin.eot");
+  src: local("TT Commons Thin"), local("TTCommons-Thin"), url("../fonts/TTCommons-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Thin.woff2") format("woff2"), url("../fonts/TTCommons-Thin.woff") format("woff"), url("../fonts/TTCommons-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ExtraLightItalic.eot");
+  src: local("TT Commons ExtraLight Italic"), local("TTCommons-ExtraLightItalic"), url("../fonts/TTCommons-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-ExtraLightItalic.woff2") format("woff2"), url("../fonts/TTCommons-ExtraLightItalic.woff") format("woff"), url("../fonts/TTCommons-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ExtraBoldItalic.eot");
+  src: local("TT Commons ExtraBold Italic"), local("TTCommons-ExtraBoldItalic"), url("../fonts/TTCommons-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/TTCommons-ExtraBoldItalic.woff") format("woff"), url("../fonts/TTCommons-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Medium.eot");
+  src: local("TT Commons Medium"), local("TTCommons-Medium"), url("../fonts/TTCommons-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Medium.woff2") format("woff2"), url("../fonts/TTCommons-Medium.woff") format("woff"), url("../fonts/TTCommons-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-BlackItalic.eot");
+  src: local("TT Commons Black Italic"), local("TTCommons-BlackItalic"), url("../fonts/TTCommons-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-BlackItalic.woff2") format("woff2"), url("../fonts/TTCommons-BlackItalic.woff") format("woff"), url("../fonts/TTCommons-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-Light.eot");
+  src: local("TT Commons Light"), local("TTCommons-Light"), url("../fonts/TTCommons-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-Light.woff2") format("woff2"), url("../fonts/TTCommons-Light.woff") format("woff"), url("../fonts/TTCommons-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-DemiBold.eot");
+  src: local("TT Commons DemiBold"), local("TTCommons-DemiBold"), url("../fonts/TTCommons-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-DemiBold.woff2") format("woff2"), url("../fonts/TTCommons-DemiBold.woff") format("woff"), url("../fonts/TTCommons-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Commons";
+  src: url("../fonts/TTCommons-ThinItalic.eot");
+  src: local("TT Commons Thin Italic"), local("TTCommons-ThinItalic"), url("../fonts/TTCommons-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TTCommons-ThinItalic.woff2") format("woff2"), url("../fonts/TTCommons-ThinItalic.woff") format("woff"), url("../fonts/TTCommons-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-LightOblique.eot");
+  src: local("Pragmatica Cond Light Oblique"), local("PragmaticaCond-LightOblique"), url("../fonts/PragmaticaCond-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-LightOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-LightOblique.woff") format("woff"), url("../fonts/PragmaticaCond-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-BookOblique.eot");
+  src: local("Pragmatica Extended Book Oblique"), local("PragmaticaExtended-BookOblique"), url("../fonts/PragmaticaExtended-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-BookOblique.woff2") format("woff2"), url("../fonts/PragmaticaExtended-BookOblique.woff") format("woff"), url("../fonts/PragmaticaExtended-BookOblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Shadow";
+  src: url("../fonts/PragmaticaShadow-Oblique.eot");
+  src: local("Pragmatica Shadow Oblique"), local("PragmaticaShadow-Oblique"), url("../fonts/PragmaticaShadow-Oblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaShadow-Oblique.woff2") format("woff2"), url("../fonts/PragmaticaShadow-Oblique.woff") format("woff"), url("../fonts/PragmaticaShadow-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-ExtraLightObliqu.eot");
+  src: local("Pragmatica Cond ExtraLight Oblique"), local("PragmaticaCond-ExtraLightObliqu"), url("../fonts/PragmaticaCond-ExtraLightObliqu.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-ExtraLightObliqu.woff2") format("woff2"), url("../fonts/PragmaticaCond-ExtraLightObliqu.woff") format("woff"), url("../fonts/PragmaticaCond-ExtraLightObliqu.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-BlackOblique.ttf");
+  src: url("../fonts/Pragmatica-ExtraLightOblique.eot");
+  src: local("Pragmatica ExtraLight Oblique"), local("Pragmatica-ExtraLightOblique"), url("../fonts/Pragmatica-ExtraLightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-ExtraLightOblique.woff2") format("woff2"), url("../fonts/Pragmatica-ExtraLightOblique.woff") format("woff"), url("../fonts/Pragmatica-ExtraLightOblique.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Book.eot");
+  src: local("Pragmatica Cond Book"), local("PragmaticaCond-Book"), url("../fonts/PragmaticaCond-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-Book.woff2") format("woff2"), url("../fonts/PragmaticaCond-Book.woff") format("woff"), url("../fonts/PragmaticaCond-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Light.eot");
+  src: local("Pragmatica Extended Light"), local("PragmaticaExtended-Light"), url("../fonts/PragmaticaExtended-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-Light.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Light.woff") format("woff"), url("../fonts/PragmaticaExtended-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-Bold.ttf");
+  src: url("../fonts/Pragmatica-ExtraBoldOblique.eot");
+  src: local("Pragmatica ExtraBold Oblique"), local("Pragmatica-ExtraBoldOblique"), url("../fonts/Pragmatica-ExtraBoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-ExtraBoldOblique.woff2") format("woff2"), url("../fonts/Pragmatica-ExtraBoldOblique.woff") format("woff"), url("../fonts/Pragmatica-ExtraBoldOblique.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Medium.eot");
+  src: local("Pragmatica Extended Medium"), local("PragmaticaExtended-Medium"), url("../fonts/PragmaticaExtended-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-Medium.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Medium.woff") format("woff"), url("../fonts/PragmaticaExtended-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-BlackOblique.eot");
+  src: local("Pragmatica Extended Black Oblique"), local("PragmaticaExtended-BlackOblique"), url("../fonts/PragmaticaExtended-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-BlackOblique.woff2") format("woff2"), url("../fonts/PragmaticaExtended-BlackOblique.woff") format("woff"), url("../fonts/PragmaticaExtended-BlackOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Book.eot");
+  src: local("Pragmatica Extended Book"), local("PragmaticaExtended-Book"), url("../fonts/PragmaticaExtended-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-Book.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Book.woff") format("woff"), url("../fonts/PragmaticaExtended-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Black.eot");
+  src: local("Pragmatica Extended Black"), local("PragmaticaExtended-Black"), url("../fonts/PragmaticaExtended-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-Black.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Black.woff") format("woff"), url("../fonts/PragmaticaExtended-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-BoldOblique.eot");
+  src: local("Pragmatica Extended Bold Oblique"), local("PragmaticaExtended-BoldOblique"), url("../fonts/PragmaticaExtended-BoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-BoldOblique.woff2") format("woff2"), url("../fonts/PragmaticaExtended-BoldOblique.woff") format("woff"), url("../fonts/PragmaticaExtended-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Medium.eot");
+  src: local("Pragmatica Cond Medium"), local("PragmaticaCond-Medium"), url("../fonts/PragmaticaCond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-Medium.woff2") format("woff2"), url("../fonts/PragmaticaCond-Medium.woff") format("woff"), url("../fonts/PragmaticaCond-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-LightOblique.eot");
+  src: local("Pragmatica Extended Light Oblique"), local("PragmaticaExtended-LightOblique"), url("../fonts/PragmaticaExtended-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-LightOblique.woff2") format("woff2"), url("../fonts/PragmaticaExtended-LightOblique.woff") format("woff"), url("../fonts/PragmaticaExtended-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-BoldOblique.ttf");
+  src: url("../fonts/Pragmatica-LightOblique.eot");
+  src: local("Pragmatica Light Oblique"), local("Pragmatica-LightOblique"), url("../fonts/Pragmatica-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-LightOblique.woff2") format("woff2"), url("../fonts/Pragmatica-LightOblique.woff") format("woff"), url("../fonts/Pragmatica-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-ExtraBoldObl.eot");
+  src: local("Pragmatica Extended ExtraBold Oblique"), local("PragmaticaExtended-ExtraBoldObl"), url("../fonts/PragmaticaExtended-ExtraBoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-ExtraBoldObl.woff2") format("woff2"), url("../fonts/PragmaticaExtended-ExtraBoldObl.woff") format("woff"), url("../fonts/PragmaticaExtended-ExtraBoldObl.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-Book.ttf");
+  src: url("../fonts/Pragmatica-Bold.eot");
+  src: local("Pragmatica Bold"), local("Pragmatica-Bold"), url("../fonts/Pragmatica-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-Bold.woff2") format("woff2"), url("../fonts/Pragmatica-Bold.woff") format("woff"), url("../fonts/Pragmatica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-BookOblique.ttf");
+  src: url("../fonts/Pragmatica-BlackOblique.eot");
+  src: local("Pragmatica Black Oblique"), local("Pragmatica-BlackOblique"), url("../fonts/Pragmatica-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-BlackOblique.woff2") format("woff2"), url("../fonts/Pragmatica-BlackOblique.woff") format("woff"), url("../fonts/Pragmatica-BlackOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-Bold.eot");
+  src: local("Pragmatica Extended Bold"), local("PragmaticaExtended-Bold"), url("../fonts/PragmaticaExtended-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-Bold.woff2") format("woff2"), url("../fonts/PragmaticaExtended-Bold.woff") format("woff"), url("../fonts/PragmaticaExtended-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-ExtraBold.ttf");
+  src: url("../fonts/Pragmatica-Black.eot");
+  src: local("Pragmatica Black"), local("Pragmatica-Black"), url("../fonts/Pragmatica-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-Black.woff2") format("woff2"), url("../fonts/Pragmatica-Black.woff") format("woff"), url("../fonts/Pragmatica-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-ExtraBoldOblique.eot");
+  src: local("Pragmatica Cond ExtraBold Oblique"), local("PragmaticaCond-ExtraBoldOblique"), url("../fonts/PragmaticaCond-ExtraBoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-ExtraBoldOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-ExtraBoldOblique.woff") format("woff"), url("../fonts/PragmaticaCond-ExtraBoldOblique.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-MediumOblique.eot");
+  src: local("Pragmatica Cond Medium Oblique"), local("PragmaticaCond-MediumOblique"), url("../fonts/PragmaticaCond-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-MediumOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-MediumOblique.woff") format("woff"), url("../fonts/PragmaticaCond-MediumOblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-ExtraBoldOblique.ttf");
+  src: url("../fonts/Pragmatica-Medium.eot");
+  src: local("Pragmatica Medium"), local("Pragmatica-Medium"), url("../fonts/Pragmatica-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-Medium.woff2") format("woff2"), url("../fonts/Pragmatica-Medium.woff") format("woff"), url("../fonts/Pragmatica-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-ExtraLight.ttf");
+  src: url("../fonts/Pragmatica-BookOblique.eot");
+  src: local("Pragmatica Book Oblique"), local("Pragmatica-BookOblique"), url("../fonts/Pragmatica-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-BookOblique.woff2") format("woff2"), url("../fonts/Pragmatica-BookOblique.woff") format("woff"), url("../fonts/Pragmatica-BookOblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-BoldOblique.eot");
+  src: local("Pragmatica Cond Bold Oblique"), local("PragmaticaCond-BoldOblique"), url("../fonts/PragmaticaCond-BoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-BoldOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-BoldOblique.woff") format("woff"), url("../fonts/PragmaticaCond-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-ExtraBold.eot");
+  src: local("Pragmatica Cond ExtraBold"), local("PragmaticaCond-ExtraBold"), url("../fonts/PragmaticaCond-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-ExtraBold.woff2") format("woff2"), url("../fonts/PragmaticaCond-ExtraBold.woff") format("woff"), url("../fonts/PragmaticaCond-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-MediumObliqu.eot");
+  src: local("Pragmatica Extended Medium Oblique"), local("PragmaticaExtended-MediumObliqu"), url("../fonts/PragmaticaExtended-MediumObliqu.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-MediumObliqu.woff2") format("woff2"), url("../fonts/PragmaticaExtended-MediumObliqu.woff") format("woff"), url("../fonts/PragmaticaExtended-MediumObliqu.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-BookOblique.eot");
+  src: local("Pragmatica Cond Book Oblique"), local("PragmaticaCond-BookOblique"), url("../fonts/PragmaticaCond-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-BookOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-BookOblique.woff") format("woff"), url("../fonts/PragmaticaCond-BookOblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-ExtraLight.eot");
+  src: local("Pragmatica Extended ExtraLight"), local("PragmaticaExtended-ExtraLight"), url("../fonts/PragmaticaExtended-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-ExtraLight.woff2") format("woff2"), url("../fonts/PragmaticaExtended-ExtraLight.woff") format("woff"), url("../fonts/PragmaticaExtended-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-ExtraLightOblique.ttf");
+  src: url("../fonts/Pragmatica-MediumOblique.eot");
+  src: local("Pragmatica Medium Oblique"), local("Pragmatica-MediumOblique"), url("../fonts/Pragmatica-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-MediumOblique.woff2") format("woff2"), url("../fonts/Pragmatica-MediumOblique.woff") format("woff"), url("../fonts/Pragmatica-MediumOblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-Light.ttf");
+  src: url("../fonts/Pragmatica-ExtraBold.eot");
+  src: local("Pragmatica ExtraBold"), local("Pragmatica-ExtraBold"), url("../fonts/Pragmatica-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-ExtraBold.woff2") format("woff2"), url("../fonts/Pragmatica-ExtraBold.woff") format("woff"), url("../fonts/Pragmatica-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-ExtraLight.eot");
+  src: local("Pragmatica Cond ExtraLight"), local("PragmaticaCond-ExtraLight"), url("../fonts/PragmaticaCond-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-ExtraLight.woff2") format("woff2"), url("../fonts/PragmaticaCond-ExtraLight.woff") format("woff"), url("../fonts/PragmaticaCond-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
 }
 @font-face {
   font-family: "Pragmatica";
-  src: url("../fonts/Pragmatica-LightOblique.ttf");
+  src: url("../fonts/Pragmatica-Light.eot");
+  src: local("Pragmatica Light"), local("Pragmatica-Light"), url("../fonts/Pragmatica-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-Light.woff2") format("woff2"), url("../fonts/Pragmatica-Light.woff") format("woff"), url("../fonts/Pragmatica-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-ExtraLightOb.eot");
+  src: local("Pragmatica Extended ExtraLight Oblique"), local("PragmaticaExtended-ExtraLightOb"), url("../fonts/PragmaticaExtended-ExtraLightOb.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-ExtraLightOb.woff2") format("woff2"), url("../fonts/PragmaticaExtended-ExtraLightOb.woff") format("woff"), url("../fonts/PragmaticaExtended-ExtraLightOb.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Light.eot");
+  src: local("Pragmatica Cond Light"), local("PragmaticaCond-Light"), url("../fonts/PragmaticaCond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-Light.woff2") format("woff2"), url("../fonts/PragmaticaCond-Light.woff") format("woff"), url("../fonts/PragmaticaCond-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-BlackOblique.eot");
+  src: local("Pragmatica Cond Black Oblique"), local("PragmaticaCond-BlackOblique"), url("../fonts/PragmaticaCond-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-BlackOblique.woff2") format("woff2"), url("../fonts/PragmaticaCond-BlackOblique.woff") format("woff"), url("../fonts/PragmaticaCond-BlackOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Bold.eot");
+  src: local("Pragmatica Cond Bold"), local("PragmaticaCond-Bold"), url("../fonts/PragmaticaCond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-Bold.woff2") format("woff2"), url("../fonts/PragmaticaCond-Bold.woff") format("woff"), url("../fonts/PragmaticaCond-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Cond";
+  src: url("../fonts/PragmaticaCond-Black.eot");
+  src: local("Pragmatica Cond Black"), local("PragmaticaCond-Black"), url("../fonts/PragmaticaCond-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaCond-Black.woff2") format("woff2"), url("../fonts/PragmaticaCond-Black.woff") format("woff"), url("../fonts/PragmaticaCond-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Shadow";
+  src: url("../fonts/PragmaticaShadow-Book.eot");
+  src: local("Pragmatica Shadow Book"), local("PragmaticaShadow-Book"), url("../fonts/PragmaticaShadow-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaShadow-Book.woff2") format("woff2"), url("../fonts/PragmaticaShadow-Book.woff") format("woff"), url("../fonts/PragmaticaShadow-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-BoldOblique.eot");
+  src: local("Pragmatica Bold Oblique"), local("Pragmatica-BoldOblique"), url("../fonts/Pragmatica-BoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-BoldOblique.woff2") format("woff2"), url("../fonts/Pragmatica-BoldOblique.woff") format("woff"), url("../fonts/Pragmatica-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-Book.eot");
+  src: local("Pragmatica Book"), local("Pragmatica-Book"), url("../fonts/Pragmatica-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-Book.woff2") format("woff2"), url("../fonts/Pragmatica-Book.woff") format("woff"), url("../fonts/Pragmatica-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica";
+  src: url("../fonts/Pragmatica-ExtraLight.eot");
+  src: local("Pragmatica ExtraLight"), local("Pragmatica-ExtraLight"), url("../fonts/Pragmatica-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Pragmatica-ExtraLight.woff2") format("woff2"), url("../fonts/Pragmatica-ExtraLight.woff") format("woff"), url("../fonts/Pragmatica-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pragmatica Extended";
+  src: url("../fonts/PragmaticaExtended-ExtraBold.eot");
+  src: local("Pragmatica Extended ExtraBold"), local("PragmaticaExtended-ExtraBold"), url("../fonts/PragmaticaExtended-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PragmaticaExtended-ExtraBold.woff2") format("woff2"), url("../fonts/PragmaticaExtended-ExtraBold.woff") format("woff"), url("../fonts/PragmaticaExtended-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
 }
 *,
 *::before,
@@ -54,7 +440,7 @@
 }
 
 html {
-  font-family: "Pragmatica", sans-serif;
+  font-family: "TT Commons", sans-serif;
   font-size: 0.64vw;
   font-style: normal;
   font-weight: normal;
@@ -240,8 +626,13 @@ input[type=number] {
 }
 .header__nav-list li {
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: 300;
   color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.header__nav-list li:hover {
+  color: #7E779A;
 }
 .header__contact-wrap {
   display: -webkit-box;
@@ -261,6 +652,8 @@ input[type=number] {
   font-size: 1.7rem;
   font-weight: 400;
   color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .header__contact-item img {
   width: 1.6rem;
@@ -269,6 +662,9 @@ input[type=number] {
 }
 .header__contact-item:not(:last-child) {
   margin-right: 4.4rem;
+}
+.header__contact-item:hover {
+  color: #7E779A;
 }
 
 .banner {
@@ -306,6 +702,7 @@ input[type=number] {
   font-weight: 400;
   color: #7E779A;
   margin-bottom: 1.6rem;
+  font-family: "Pragmatica";
 }
 .banner__title {
   font-size: 6.4rem;
@@ -320,6 +717,7 @@ input[type=number] {
   border-radius: 9rem;
   padding: 2rem 4.4rem;
   width: 33.3rem;
+  text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -380,11 +778,13 @@ input[type=number] {
   font-weight: 500;
   color: #333333;
   margin-bottom: 3rem;
+  font-family: "Pragmatica";
 }
 .about__text {
   font-size: 1.6rem;
   font-weight: 400;
   color: #333333;
+  font-family: "Pragmatica";
 }
 .about__text:not(:last-child) {
   margin-bottom: 2rem;
@@ -437,6 +837,7 @@ input[type=number] {
   font-weight: 400;
   color: #333333;
   margin-bottom: 4.4rem;
+  font-family: "Pragmatica";
 }
 .services__content {
   display: grid;
@@ -482,13 +883,202 @@ input[type=number] {
   font-size: 1.5rem;
   font-weight: 500;
   color: #333333;
+  font-family: "Pragmatica";
 }
 
-.feedback {
+.publications {
+  padding-top: 11.5rem;
+  margin-bottom: 11.5rem;
+  position: relative;
+}
+.publications__inner {
+  position: relative;
+}
+.publications__title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+.publications__subtitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: rgb(119, 119, 119);
+  margin-bottom: 4rem;
+  text-align: center;
+  font-family: "Pragmatica";
+}
+.publications__slider {
+  overflow: hidden;
+}
+.publications__slide {
+  background: #F6F4F9;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+}
+.publications__slide-img {
+  width: 100%;
+  height: 26.2rem;
+  border-radius: 0.9rem 0.9rem 0 0;
+  margin-bottom: 2.7rem;
+}
+.publications__slide-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: inherit;
+}
+.publications__slide-text {
+  padding: 0 1.9rem 1.5rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+.publications__slide-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  margin-bottom: 1.1rem;
+}
+.publications__slide-subtitle {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgb(119, 119, 119);
+  margin-bottom: 2.6rem;
+  font-family: "Pragmatica";
+}
+.publications__slide-bottom {
+  padding-top: 2rem;
+  border-top: 0.1rem solid rgb(234, 232, 236);
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.publications__slide-logo {
+  width: 10rem;
+  height: 2rem;
+}
+.publications__slide-logo img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.publications__slide-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.publications__slide-date img {
+  width: 1.6rem;
+  height: 1.6rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 0.7rem;
+}
+.publications__slide-date span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(196, 196, 196);
+}
+.publications .slider-arrow-prev {
+  width: 4.9rem;
+  height: 4.9rem;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+  position: absolute;
+  top: 50%;
+  left: -2.5rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+}
+.publications .slider-arrow-prev svg {
+  width: 1.8rem;
+  height: 1.8rem;
+  stroke: rgb(211, 208, 214);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.publications .slider-arrow-prev:hover svg {
+  stroke: #791281;
+}
+.publications .slider-arrow-next {
+  width: 4.9rem;
+  height: 4.9rem;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+  position: absolute;
+  top: 50%;
+  right: -2.5rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+}
+.publications .slider-arrow-next svg {
+  width: 1.8rem;
+  height: 1.8rem;
+  stroke: rgb(211, 208, 214);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.publications .slider-arrow-next:hover svg {
+  stroke: #791281;
+}
+
+.footer {
   position: relative;
   padding: 11.3rem 0 0 9rem;
 }
-.feedback > img {
+.footer > img {
   position: absolute;
   inset: 0;
   z-index: -1;
@@ -497,21 +1087,23 @@ input[type=number] {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.feedback__inner {
+.footer__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 8.7rem;
 }
-.feedback__left {
-  width: 47rem;
-  margin-right: 3rem;
+.footer__left {
+  width: 40.8rem;
+  margin-right: 9.2rem;
 }
-.feedback__title {
+.footer__title {
   font-size: 4.8rem;
   font-weight: 700;
   color: #FFFFFF;
+  margin-bottom: 1.8rem;
 }
-.feedback__form {
+.footer__form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,6 +1114,116 @@ input[type=number] {
   width: 67rem;
   color: #ffffff;
 }
+.footer__subtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgb(126, 119, 154);
+  margin-bottom: 8.6rem;
+  font-family: "Pragmatica";
+}
+.footer__contact-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  width: 2rem;
+  margin-right: 2.8rem;
+  margin-top: auto;
+}
+.footer__social-item {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer__social-item:not(:last-child) {
+  margin-right: 2.8rem;
+  position: relative;
+}
+.footer__social-item:not(:last-child)::before {
+  content: " ";
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -1.4rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.footer__social-item:hover {
+  color: rgb(126, 119, 154);
+}
+.footer__contact-item:not(:last-child) {
+  margin-bottom: 2.2rem;
+}
+.footer__contect-item-key {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: rgb(126, 119, 154);
+  font-family: "Pragmatica";
+}
+.footer__contact-item-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3.9rem 0 4.2rem 0;
+  border-top: 0.1rem solid rgb(255, 255, 255);
+}
+.footer__logo-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__logo-item {
+  width: 3.7rem;
+  height: 2.4rem;
+  cursor: pointer;
+}
+.footer__logo-item svg {
+  width: 100%;
+  height: 100%;
+  fill: #545472;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.footer__logo-item svg:hover {
+  fill: #ffffff;
+}
+.footer__logo-item:not(:last-child) {
+  margin-right: 1.6rem;
+}
+.footer__bottom-info {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(126, 119, 154);
+}
+
 .form__label {
   display: block;
   margin-bottom: 2rem;
@@ -536,11 +1238,22 @@ input[type=number] {
   width: 100%;
   height: 5.2rem;
   padding: 0 2rem;
+  font-family: "Pragmatica";
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .form__label input.error {
   border: 1px solid red;
 }
+.form__label input:focus-within {
+  color: #ffffff;
+}
+.form .out {
+  font-size: 2rem;
+  color: rgb(177, 22, 22);
+}
 .form textarea {
+  font-family: "Pragmatica";
   background: rgba(7, 11, 47, 0.07);
   border: 2px solid #473E69;
   border-radius: 4px;
@@ -552,12 +1265,18 @@ input[type=number] {
   height: 16.3rem;
   overflow-y: auto;
   resize: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.form textarea:focus-within {
+  color: #ffffff;
 }
 .form__label-title {
   color: #807D8D;
   font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 0;
+  font-family: "Pragmatica";
 }
 .form__label-checkbox {
   display: -webkit-box;
@@ -566,21 +1285,69 @@ input[type=number] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Pragmatica";
   font-size: 1.5rem;
   font-weight: 300;
   color: #FFFFFF;
   margin-bottom: 1rem;
+  position: relative;
+  padding-left: 4rem;
 }
 .form__label-checkbox input {
-  margin-right: 1rem;
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+.form__label-checkbox input:checked + .checkbox-style::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  background-image: url(./../img/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.3rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.form__label-checkbox .checkbox-style {
+  position: absolute;
+  left: 0;
+  border: 2px solid #473E69;
+  border-radius: 0.4rem;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.form__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3.1rem;
+}
+.form__bottom-politica {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(126, 119, 154);
+  font-family: "Pragmatica";
+}
+.form__bottom-politica a {
+  text-decoration: underline;
 }
 .form button {
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: #FFFFFF;
-  background: #0B0B35;
+  background: linear-gradient(99.43deg, #3F0F72 4.21%, #791180 108.65%);
   border-radius: 5rem;
-  border: 1px solid #473E69;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -591,12 +1358,29 @@ input[type=number] {
       -ms-flex-pack: center;
           justify-content: center;
   width: 22.6rem;
-  height: 5.6rem;
+  padding: 2rem 1rem 1.8rem 1rem;
+  position: relative;
+}
+.form button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #190c4c;
+  border-radius: 5rem;
+}
+.form button span {
+  position: relative;
+  z-index: 1;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .popup {
   width: 53.9rem;
   padding: 5.5rem 4.4rem 3.7rem 4.4rem;
+  font-size: 3rem;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 0.4rem 3.5rem rgba(0, 0, 0, 0.08);
           box-shadow: 0px 0.4rem 3.5rem rgba(0, 0, 0, 0.08);
@@ -626,6 +1410,7 @@ input[type=number] {
           justify-content: center;
   padding: 6rem;
 }
+
 .mobile {
   display: none;
 }
@@ -642,36 +1427,16 @@ input[type=number] {
     width: 5rem;
     -o-object-fit: contain;
        object-fit: contain;
+    background: url(./../img/burger-icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
-  .header__logo {
-    font-size: 2.8rem;
+  .header__burger-btn.active {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    width: 20rem;
-    height: 4rem;
-  }
-  .header__favorites {
-    width: 4rem;
-    height: 4rem;
-    margin-right: 2.4rem;
-  }
-  .header__favorites span {
-    width: 2rem;
-    height: 2rem;
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    -webkit-transform: translate(30%, -10%);
-            transform: translate(30%, -10%);
-    z-index: 1;
-  }
-  .header__profile {
-    width: 4rem;
-    height: 4rem;
+    top: 4rem;
+    left: 5rem;
+    background: url(./../img/close.svg);
     border-radius: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -682,18 +1447,27 @@ input[type=number] {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background: #ffffff;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
-  .header__profile img {
-    width: 100%;
-    height: 100%;
+  .header__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+    width: 25rem;
+    height: 5rem;
   }
   .header__nav {
     padding: 10rem 5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: auto;
+    height: 50vh;
+    min-height: 50rem;
     position: absolute;
     background: #FAFBFC;
     -webkit-box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.11);
@@ -701,6 +1475,7 @@ input[type=number] {
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     z-index: 50;
     -webkit-transform: translateX(-120%);
             transform: translateX(-120%);
@@ -744,809 +1519,300 @@ input[type=number] {
   .header__nav ul li.active::before {
     content: none;
   }
-  .header__nav .header__burger-btn {
-    position: absolute;
-    top: 8rem;
-    right: 5.2rem;
-    z-index: 100;
+  .header__contact-item img {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 2rem;
   }
-  .header__log-mobile {
-    width: 3.6rem;
-    height: 3.6rem;
+  .banner {
+    height: 100rem;
+    margin-bottom: 15rem;
   }
-  .header__log-mobile img {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
+  .banner__inner {
+    padding-top: 20rem;
+    height: 100rem;
   }
-  .profile__inner {
-    position: relative;
-    margin-bottom: 12.6rem;
-  }
-  .profile__info {
-    padding: 4.8rem 2rem 6rem 6rem;
-    border-radius: 2.4rem;
-    margin-right: 0;
-    height: 100%;
-    min-height: 70rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 10;
-    -webkit-transform: translateX(-120%);
-            transform: translateX(-120%);
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    overflow-y: scroll;
-  }
-  .profile__info.active {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-  .profile__btn.mobile {
-    width: 6.4rem;
-    height: 6.4rem;
-    border-radius: 50%;
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 0px 11px rgba(15, 31, 55, 0.08);
-            box-shadow: 0px 0px 11px rgba(15, 31, 55, 0.08);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: absolute;
-    top: 3.6rem;
-    right: 3.6rem;
-    z-index: 11;
-  }
-  .profile__btn.mobile img {
-    width: 2rem;
-    height: 2rem;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-  .profile__name-wrap {
-    margin-bottom: 6rem;
-    padding-left: 0;
-  }
-  .profile__name-wrap img {
-    width: 3.4rem;
-    height: 3.4rem;
-  }
-  .profile__name {
-    font-size: 4rem;
-    margin-right: 1.25rem;
-  }
-  .profile .menu-item-open {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .profile .menu-item-open .icon {
-    width: 3.6rem;
-    height: 3.6rem;
-    -o-object-fit: contain;
-       object-fit: contain;
-    margin-right: 2.8rem;
-  }
-  .profile .menu-item-open .arrow {
-    width: 1rem;
-    height: 2rem;
-    -o-object-fit: contain;
-       object-fit: contain;
-    margin-left: 2rem;
-  }
-  .profile__tablinks {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 2.8rem;
-    color: rgb(0, 0, 0);
-    padding: 0;
-    position: relative;
-  }
-  .profile__tablinks:not(:last-child) {
-    margin-bottom: 5.9rem;
-  }
-  .profile__tablinks .icon {
-    width: 3.6rem;
-    height: 3.6rem;
-    margin-right: 2.8rem;
-  }
-  .profile__tablinks .arrow {
-    width: 1.5rem;
-    height: 2rem;
-    -o-object-fit: contain;
-       object-fit: contain;
-    margin-left: 3rem;
-  }
-  .profile__tablinks.active {
-    background: rgb(250, 251, 252);
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border-radius: 0;
-  }
-  .profile__tablinks.active::after {
-    content: none;
-  }
-  .profile__tablinks.submenu.active {
-    display: block;
-    background: transparent;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border-radius: none;
-    padding: 0;
-  }
-  .profile__tablinks.submenu.active::after {
-    content: none;
-  }
-  .profile__tablinks.submenu.active .menu-item-open {
-    background: rgb(250, 251, 252);
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border-radius: 0;
-    padding: 0;
-  }
-  .profile__tablinks.submenu.active .menu-item-open::after {
-    content: none;
-  }
-  .profile__tablinks.submenu.active .profile__tablinks-submenu {
-    display: block;
-    padding: 4rem 1.4rem 0rem 6.2rem;
-  }
-  .profile__tablinks.submenu.active .profile__tablinks-submenu li {
-    font-size: 2.8rem;
-  }
-  .profile__tablinks.submenu.active .profile__tablinks-submenu li:not(:last-child) {
-    margin-bottom: 3.8rem;
-  }
-  .profile__content {
-    background: #FFFFFF;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border-radius: none;
-    padding-top: 2.8rem;
+  .banner__text-block {
     width: 100%;
   }
-  .profile__personal {
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 0.8rem 4.8rem rgba(28, 40, 105, 0.1);
-            box-shadow: 0px 0.8rem 4.8rem rgba(28, 40, 105, 0.1);
-    border-radius: 1.3rem;
+  .banner__description {
+    font-size: 4.2rem;
+    margin-bottom: 2.5rem;
+  }
+  .banner__title {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+  }
+  .banner__btn {
+    border-radius: 18rem;
+    width: 50rem;
+    height: 10rem;
+    font-size: 3rem;
+  }
+  .banner__info img {
+    width: 40rem;
+  }
+  .banner__info-key {
+    font-size: 3.4rem;
+  }
+  .about {
+    margin-bottom: 15rem;
+  }
+  .about__inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 7.5rem;
-    padding: 2.6rem 2rem 7rem 2rem;
   }
-  .profile__personal-left {
-    padding-left: 0;
+  .about__text-block {
     width: 100%;
+    margin-right: 0rem;
+  }
+  .about__title {
+    font-size: 4.8rem;
+    margin-bottom: 3.5rem;
+  }
+  .about__subtitle {
+    font-size: 2.8rem;
+  }
+  .about__text {
+    font-size: 2.6rem;
+  }
+  .about__text:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  .about__text:last-child {
+    margin-bottom: 3.7rem;
+  }
+  .about__photo-mini {
+    margin-bottom: 3rem;
+  }
+  .about__photo-mini img {
+    width: 48%;
+    height: 30rem;
+    border-radius: 1.8rem;
+  }
+  .about__photo-block {
+    width: 100%;
+    border-radius: 1.8rem;
+  }
+  .services__title {
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+  }
+  .services__subtitle {
+    font-size: 2.8rem;
+  }
+  .services__content {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  .services__item {
+    border-radius: 0.9rem;
+    padding: 2rem 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services__item-img {
+    width: 8rem;
+    height: 8rem;
     margin-right: 0;
+    margin-bottom: 3rem;
   }
-  .profile__personal-img {
-    width: 100%;
-    height: 38.4rem;
-    border-radius: 0rem;
-    margin-bottom: 4rem;
-  }
-  .profile__stars-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 2rem;
-  }
-  .profile__stars {
-    margin-right: 4rem;
-  }
-  .profile__stars img {
-    width: 23.4rem;
-    height: 4rem;
-  }
-  .profile__rate-value {
-    font-size: 2.8rem;
-  }
-  .profile__rate-key {
-    font-size: 2.8rem;
-  }
-  .profile__rate-key:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-  .profile__rate-key:last-child {
-    padding-bottom: 4.2rem;
-    margin-bottom: 7.2rem;
-    border-bottom: 0.1rem solid rgba(130, 139, 189, 0.38);
-  }
-  .profile__personal-social {
-    padding-left: 3rem;
-  }
-  .profile__personal-social a:not(:last-child) {
-    margin-right: 7rem;
-  }
-  .profile__personal-social a img {
+  .services__item-img img {
     width: 4rem;
     height: 4rem;
   }
-  .profile__personal-right {
-    width: 49rem;
-  }
-  .profile__name-top {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: 3.6rem;
-    padding-left: 0.5rem;
-    letter-spacing: 1px;
-  }
-  .profile__edit {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    font-size: 3.2rem;
-    margin: 0 auto 4.6rem auto;
-  }
-  .profile__edit img {
-    width: 3rem;
-    height: 3rem;
-    margin-left: 2rem;
-  }
-  .profile__edit:before {
-    content: "";
-    width: 100%;
-    height: 0.1rem;
-    background: linear-gradient(92.85deg, #FF8A00 -43.75%, #FF007A 106.98%);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  .profile__edit.desctop {
-    display: none;
-  }
-  .profile__location {
-    padding-left: 1rem;
-  }
-  .profile__location img {
-    width: 2.2rem;
-    height: 2.5rem;
-    margin-right: 1rem;
-  }
-  .profile__location.desctop {
-    display: none;
-  }
-  .profile__location .select-box {
-    width: 100%;
-  }
-  .profile__location .selected {
-    padding: 0 1rem 0 3rem;
-    height: 3rem;
+  .services__item-title {
     font-size: 2.8rem;
+    text-align: center;
   }
-  .profile__location .selected::before {
-    height: 3rem;
-    width: 2.5rem;
-    left: 0rem;
-    top: 0rem;
+  .publications {
+    padding-top: 15rem;
+    margin-bottom: 15rem;
   }
-  .profile__location .selected::after {
-    height: 2rem;
-    width: 2rem;
-    right: -2rem;
-    top: 0.5rem;
-  }
-  .profile__location .select-box .options-container {
-    font-size: 2.2rem;
-  }
-  .profile__location .search-box {
-    height: 5rem;
-  }
-  .profile__location .search-box input {
-    padding: 0 2rem 0 1.5rem;
-    font-size: 2.4rem;
-    border-radius: 1rem;
-  }
-  .profile__location .search-box::after {
-    height: 2.6rem;
-    width: 2.6rem;
-    right: 2rem;
-  }
-  .profile__description {
-    font-size: 2.8rem;
-    width: 100%;
-    padding-bottom: 3rem;
-    margin-bottom: 4.5rem;
-    padding-left: 1.5rem;
-    font-weight: 400;
-  }
-  .profile__description-items {
-    padding-bottom: 5.4rem;
-    margin-bottom: 3.4rem;
-    padding-left: 1.5rem;
-    width: 100%;
-  }
-  .profile__description-items ul li {
-    font-size: 2.8rem;
-  }
-  .profile__description-items ul li:not(:last-child) {
-    margin-bottom: 4.5rem;
-  }
-  .profile__description-items ul li img {
-    width: 2.6rem;
-    height: 2rem;
-    margin-right: 3.2rem;
-  }
-  .profile__price-wrap {
-    display: grid;
-    grid-template-columns: 1fr;
-    -webkit-column-gap: 0rem;
-       -moz-column-gap: 0rem;
-            column-gap: 0rem;
-    row-gap: 4rem;
-    padding-bottom: 3.2rem;
-    margin-bottom: 5rem;
-    width: 100%;
-    padding-left: 2rem;
-  }
-  .profile__price-key {
-    font-size: 2.8rem;
-  }
-  .profile__price-value {
-    font-size: 5rem;
-  }
-  .profile__rate-wrap {
-    padding-left: 2rem;
-  }
-  .profile__portfolio {
-    margin-bottom: 0rem;
-  }
-  .profile__portfolio-title {
-    font-size: 4.6rem;
-    padding-left: 0rem;
-    margin-bottom: 4.4rem;
-  }
-  .profile__portfolio-slider {
-    overflow: hidden;
-    position: relative;
-  }
-  .profile__portfolio-slide {
-    height: 42.4rem;
-    padding: 3rem;
-    border-radius: 0.8rem;
-  }
-  .profile__portfolio-slide img {
-    border-radius: inherit;
-  }
-  .profile__portfolio-slide:not(:last-child) {
-    margin-bottom: 3.2rem;
-  }
-  .profile__portfolio-slide .desctop {
-    display: none;
-  }
-  .profile__portfolio-slider-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .profile__portfolio-slide-text {
-    margin-top: auto;
-    opacity: 0;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-  }
-  .profile__portfolio-cake-name {
-    font-size: 2rem;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    margin-bottom: 0.6rem;
-  }
-  .profile__portfolio-cake-price {
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-  }
-  .profile__wrapper {
-    padding: 2.8rem 2.2rem;
-  }
-  .profile .slider-arrow-next {
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    top: 50%;
-    right: 2rem;
-    z-index: 100;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    cursor: pointer;
-  }
-  .profile .slider-arrow-next img {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-  .profile .slider-arrow-prev {
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 2rem;
-    z-index: 100;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    cursor: pointer;
-  }
-  .profile .slider-arrow-prev img {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-  .footer__top {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-bottom: 5.2rem;
-  }
-  .footer__logo {
-    width: 25rem;
-    height: 4rem;
-    margin-right: 0rem;
-    margin-bottom: 7.2rem;
-  }
-  .footer__info-wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .footer__info-block {
-    margin-right: 0rem;
-    font-size: 3.2rem;
-    margin-bottom: 9.6rem;
-  }
-  .footer__info-block a:not(:last-child) {
-    margin-bottom: 3.4rem;
-  }
-  .footer__nav-block {
-    margin-right: 0rem;
-    font-size: 3.2rem;
-    margin-bottom: 7rem;
-  }
-  .footer__nav-block ul li:not(:last-child) {
-    margin-bottom: 6.4rem;
-  }
-  .footer__social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-item-align: start;
-        align-self: start;
-  }
-  .footer__social a {
-    width: 6.6rem;
-    height: 6.6rem;
-  }
-  .footer__social a svg {
-    height: 4.4rem;
-    width: 4.4rem;
-  }
-  .footer__social a:not(:last-child) {
-    margin-right: 2rem;
-  }
-  .footer__bottom {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-bottom: 4.9rem;
-  }
-  .footer__small {
-    font-size: 2.4rem;
-  }
-  .footer__up {
-    width: 10.4rem;
-    height: 10.4rem;
-    bottom: 10rem;
-    right: 5rem;
-    z-index: 2;
-  }
-  .footer__up img {
-    width: 2.4rem;
-    height: 2.4rem;
-  }
-  .confectioners-banner {
-    margin-bottom: 4rem;
-  }
-  .confectioners-banner__inner {
-    height: 62.8rem;
-    padding: 13.6rem 5rem 3rem 5rem;
-  }
-  .confectioners-banner__text-block::before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    -webkit-filter: blur(10.4rem);
-            filter: blur(10.4rem);
-    bottom: auto;
-    top: 0;
-  }
-  .confectioners-banner__title {
-    font-size: 4.6rem;
-    margin-bottom: 1.6rem;
-  }
-  .confectioners-banner__subtitle {
-    font-size: 2.8rem;
-    width: 100%;
-  }
-  .confectioners__inner {
-    display: block;
-  }
-  .confectioners__filter-selected {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-bottom: 2.4rem;
-  }
-  .confectioners__filter-open-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 3.2rem;
-    font-weight: 500;
-    color: rgb(94, 94, 94);
-    margin-bottom: 4.2rem;
-  }
-  .confectioners__filter-open-btn img {
-    width: 3.6rem;
-    height: 2rem;
-    margin-right: 2rem;
-  }
-  .confectioners__filter-open-btn.close img {
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0rem;
-  }
-  .confectioners__filter-selected-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background: rgba(130, 139, 189, 0.11);
-    border-radius: 0.4rem;
-    padding: 0rem 1rem 0rem 2rem;
-    height: 5.2rem;
-    margin-right: 2.8rem;
-    margin-bottom: 2.2rem;
-  }
-  .confectioners__filter-selected-item span {
-    font-size: 2.6rem;
-    font-weight: 500;
-    color: #828BBD;
-    margin-right: 2rem;
-  }
-  .confectioners__filter-selected-item img {
-    width: 1.4rem;
-    height: 1.4rem;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-  .confectioners__content {
-    width: 100%;
-  }
-  .confectioners__items {
-    margin-bottom: 8rem;
-  }
-  .confectioners__item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-shadow: 0px 0.8rem 4.8rem rgba(28, 40, 105, 0.1);
-            box-shadow: 0px 0.8rem 4.8rem rgba(28, 40, 105, 0.1);
-    border-radius: 1.6rem;
-    padding: 2.6rem 2rem 5.2rem 2rem;
-  }
-  .confectioners__item:not(:last-child) {
-    margin-bottom: 6rem;
-  }
-  .confectioners__item-photo {
-    width: 100%;
-    position: relative;
-    margin-bottom: 3rem;
-  }
-  .confectioners__btn-save.mobile {
-    position: absolute;
-    top: 2rem;
-    right: 3rem;
-    z-index: 2;
-  }
-  .confectioners__btn-save.mobile.btn--save {
-    width: 5.4rem;
-    height: 5.4rem;
-    border-radius: 50%;
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 0.8rem 2.4rem rgba(0, 0, 0, 0.13);
-            box-shadow: 0px 0.8rem 2.4rem rgba(0, 0, 0, 0.13);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .confectioners__btn-save.mobile.btn--save img {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
-  .confectioners__item-photo-main {
-    height: 38.4rem;
-    margin-bottom: 1.6rem;
-  }
-  .confectioners__item-thumbs-slide {
-    height: 11.8rem;
-  }
-  .confectioners__arrow-prev {
-    height: 2.4rem;
-    width: 1.4rem;
-    left: 3rem;
-  }
-  .confectioners__arrow-next {
-    height: 2.4rem;
-    width: 1.4rem;
-    right: 3rem;
-  }
-  .confectioners__info {
-    width: 100%;
-  }
-  .confectioners__name-top {
+  .publications__title {
+    font-size: 4.8rem;
     margin-bottom: 2rem;
   }
-  .confectioners__name-wrap {
-    padding-left: 0rem;
-  }
-  .confectioners__name-wrap img {
-    width: 2.6rem;
-    height: 2.69rem;
-  }
-  .confectioners__name {
+  .publications__subtitle {
     font-size: 3.6rem;
-    margin-right: 1.3rem;
+    margin-bottom: 6rem;
   }
-  .confectioners__location.mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 2.8rem;
-    margin-bottom: 0;
-    padding-right: 1rem;
+  .publications__slide {
+    border-radius: 2rem;
   }
-  .confectioners__location.mobile img {
-    width: 2.3rem;
-    height: 2.3rem;
-  }
-  .confectioners__description {
-    font-size: 2.6rem;
-    font-weight: 400;
-    line-height: 1.53;
-    letter-spacing: 0.18px;
-    margin-bottom: 2.4rem;
-  }
-  .confectioners .btn.btn--more {
+  .publications__slide-img {
     width: 100%;
-    height: 8.8rem;
-    -webkit-filter: drop-shadow(0px 2rem 4.6rem rgba(150, 146, 144, 0.15));
-            filter: drop-shadow(0px 2rem 4.6rem rgba(150, 146, 144, 0.15));
-    border-radius: 8.8rem;
+    height: 40rem;
+    margin-bottom: 3.5rem;
   }
-  .confectioners .btn.btn--more span {
+  .publications__slide-text {
+    padding: 0 2.5rem 3rem 2.5rem;
+  }
+  .publications__slide-title {
     font-size: 3.2rem;
-    margin-right: 1.2rem;
+    margin-bottom: 2rem;
   }
-  .confectioners .btn.btn--more img {
-    width: 2rem;
-    height: 2rem;
+  .publications__slide-subtitle {
+    font-size: 2.8rem;
   }
-  .filter-block {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  .publications__slide-bottom {
+    padding-top: 3rem;
+  }
+  .publications__slide-logo {
+    width: 15rem;
+    height: 3rem;
+  }
+  .publications__slide-date img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+  .publications__slide-date span {
+    font-size: 2.6rem;
+  }
+  .publications .slider-arrow-prev {
+    width: 8rem;
+    height: 8rem;
+  }
+  .publications .slider-arrow-prev svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .publications .slider-arrow-next {
+    width: 8rem;
+    height: 8rem;
+  }
+  .publications .slider-arrow-next svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .footer {
+    padding: 11.3rem 0 0 0rem;
+  }
+  .footer__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer__left {
     width: 100%;
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    z-index: 10;
-    overflow-y: scroll;
-    height: auto;
     margin-right: 0;
   }
-  .filter-block.active {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+  .footer__title {
+    font-size: 5.2rem;
   }
-  .pagination__btn-prev {
-    width: 6rem;
+  .footer__form {
+    width: 100%;
+  }
+  .footer__subtitle {
+    font-size: 3.6rem;
+  }
+  .footer__social {
+    width: 4rem;
+    margin-right: 2.8rem;
+  }
+  .footer__social-item {
+    font-size: 3.2rem;
+  }
+  .footer__social-item::before {
+    width: 1rem;
+    height: 1rem;
+  }
+  .footer__contact-item:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+  .footer__contect-item-key {
+    font-size: 4.6rem;
+  }
+  .footer__contact-item-value {
+    font-size: 4.4rem;
+  }
+  .footer__bottom {
+    padding: 7rem 0 7rem 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__logo-wrap {
+    margin-bottom: 2rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__logo-item {
+    width: 10rem;
     height: 6rem;
-    border: 0.2rem solid #DFE3E8;
-    border-radius: 0.8rem;
-    margin-right: 1rem;
+    margin-bottom: 2rem;
   }
-  .pagination__btn-prev svg {
-    width: 3rem;
-    height: 2rem;
+  .footer__logo-item:not(:last-child) {
+    margin-right: 1.6rem;
   }
-  .pagination__btn-next {
-    width: 6rem;
-    height: 6rem;
-    border: 0.2rem solid #DFE3E8;
-    border-radius: 0.8rem;
-    margin-right: 1rem;
+  .footer__bottom-info {
+    font-size: 3rem;
   }
-  .pagination__btn-next svg {
-    width: 3rem;
-    height: 2rem;
+  .footer__bottom-info:not(:last-child) {
+    margin-bottom: 2rem;
   }
-  .pagination__item {
-    width: 6rem;
-    height: 6rem;
-    border-radius: 0.8rem;
+  .form {
+    margin-bottom: 8rem;
+  }
+  .form__label {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .form__label input {
+    font-size: 3.2rem;
+    height: 7rem;
+  }
+  .form textarea {
+    font-size: 3.2rem;
+    height: 30rem;
+    margin-bottom: 3rem;
+  }
+  .form__label-title {
+    font-size: 2.4rem;
+  }
+  .form__label-checkbox {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    padding-left: 8rem;
+  }
+  .form__label-checkbox input:checked + .checkbox-style::before {
+    width: 5rem;
+    height: 5rem;
+    background-size: 2.6rem;
+  }
+  .form__label-checkbox .checkbox-style {
+    width: 5rem;
+    height: 5rem;
+  }
+  .form__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form__bottom-politica {
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+  }
+  .form button {
+    width: 100%;
+    padding: 3rem 1rem 2.8rem 1rem;
+  }
+  .form button span {
     font-size: 2.8rem;
-    margin-right: 1rem;
   }
-  .pagination__item::before {
-    content: "";
-    position: absolute;
-    inset: 2px;
-    background: #fff;
-    border-radius: 0.6rem;
+  .form .out {
+    font-size: 3.2rem;
+  }
+  .popup {
+    width: 80rem;
+    font-size: 4rem;
   }
 }/*# sourceMappingURL=style.css.map */
