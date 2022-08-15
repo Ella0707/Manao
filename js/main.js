@@ -105,12 +105,10 @@ const publicationsSlider = new Swiper('.publications__slider', {
 // мобильное меню
 const iconMenu = document.querySelector('.menu-btn');
 const menuMob = document.querySelector('.header__nav');
-const anchors = document.querySelectorAll('a[href*="#"]');
 
 
 if (iconMenu) {
   iconMenu.addEventListener("click", function (e) {
-    document.body.classList.toggle('lock');
     iconMenu.classList.toggle('active');
     menuMob.classList.toggle('active');
   });
@@ -118,19 +116,12 @@ if (iconMenu) {
 
 // плавная прокрутка
 
-for (let anchor of anchors) {
-  anchor.addEventListener('click', function (event) {
-    event.preventDefault()
-    let blockID = anchor.getAttribute('href')
-    document.querySelector(blockID).scrollIntoView({
-      behavior: "smooth",
-      block: "start"
-
-    })
-    if (iconMenu.classList.contains('active')) {
-      document.body.classList.remove('lock');
-      iconMenu.classList.remove('active');
-      menuMob.classList.remove('active');
-    }
-  })
-}
+$(document).ready(function(){
+  $("a[href*='#']").on("click", function(e){
+    var anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $(anchor.attr('href')).offset().top}, 777);
+    e.preventDefault();
+    return false;
+  });
+});

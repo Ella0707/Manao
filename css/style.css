@@ -1462,7 +1462,7 @@ input[type=number] {
     height: 5rem;
   }
   .header__nav {
-    padding: 10rem 5rem;
+    padding: 12rem 5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1491,16 +1491,21 @@ input[type=number] {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: auto;
+    width: 100%;
   }
   .header__nav ul li {
-    font-size: 3.6rem;
+    font-size: 4.2rem;
     font-weight: 500;
     color: rgb(48, 48, 48);
     display: -webkit-box;
@@ -1514,7 +1519,7 @@ input[type=number] {
   }
   .header__nav ul li:not(:last-child) {
     margin-right: 0rem;
-    margin-bottom: 6.4rem;
+    margin-bottom: 2.4rem;
   }
   .header__nav ul li.active::before {
     content: none;

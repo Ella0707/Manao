@@ -49,7 +49,7 @@
         }
 
         &__nav {
-            padding: 10rem 5rem;
+            padding: 12rem 5rem;
             display: flex;
             height: 50vh;
             min-height: 50rem;
@@ -72,11 +72,14 @@
 
             ul {
                 display: flex;
-                align-items: start;
+                align-items: center;
+                justify-content: center;
                 flex-direction: column;
+                height: auto;
+                width: 100%;
 
                 li {
-                    font-size: 3.6rem;
+                    font-size: 4.2rem;
                     font-weight: 500;
                     color: rgba(48, 48, 48, 1);
                     display: flex;
@@ -86,7 +89,7 @@
 
                     &:not(:last-child) {
                         margin-right: 0rem;
-                        margin-bottom: 6.4rem;
+                        margin-bottom: 2.4rem;
                     }
 
                     &.active {
