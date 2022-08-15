@@ -1392,10 +1392,25 @@ input[type=number] {
           transform: translate(-50%, -50%);
   z-index: 10;
   margin: auto;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .popup.active {
-  display: block;
+  visibility: visible;
+  opacity: 1;
+  height: 20rem;
 }
 .popup__body {
   min-height: 100%;

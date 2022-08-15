@@ -784,10 +784,19 @@
     transform: translate(-50%, -50%);
     z-index: 10;
     margin: auto;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: 0.4s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &.active {
-        display: block;
+        visibility: visible;
+        opacity: 1;
+        height: 20rem;
     }
 
     &__body {

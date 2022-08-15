@@ -67,20 +67,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function popupOpen() {
     popup.classList.add('active');
+    document.onclick = function (e) {
+      if (e.target.className != "popup") {
+          popup.classList.remove('active');
+      };
+  };
   }
 })
-
-
-const menuBtn = $(".btn"),
-      menu = $(".popup");
-
-$(document).click(function (e) {
-  if (!menuBtn.is(e.target) && !menu.is(e.target) && menu.has(e.target).length === 0) {
-    menu.slideUp();
-    menu.removeClass('active');
-    menuBtn.removeClass("active");
-  };
-});
 
 
 const publicationsSlider = new Swiper('.publications__slider', {
