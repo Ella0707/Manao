@@ -67,9 +67,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function popupOpen() {
     popup.classList.add('active');
+    document.body.classList.add('lock');
     document.onclick = function (e) {
       if (e.target.className != "popup") {
           popup.classList.remove('active');
+          document.body.classList.remove('lock');
       };
   };
   }
